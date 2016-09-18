@@ -1,0 +1,44 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	height: 100%;
+	width: 100%;
+}
+
+body{
+	height: 170px;
+}
+
+.container{
+	background-image: url('../img/landscape.jpg');
+	background-repeat: no-repeat;
+	background-size: 1360px 667px;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+}
+
+svg{
+	width: 500px;
+	display: block;
+	margin: auto;
+}
+
+.mac{
+	background-image: url('../img/imac.png');
+	width: 500px;
+	height: 405px;
+	background-size: 500px 405px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-left: -250px;
+	margin-top: -202.5px
+}
+.mac img{
+	max-width: 500px;
+	height: 346px;
+}
